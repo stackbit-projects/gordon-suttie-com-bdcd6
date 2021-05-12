@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "project": {
+    "name": "gordon-suttie-com-bdcd6"
+  },
+  "api": {
+    "projectId": "dxuwys45",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "markdown",
+    "@sanity/color-input"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    },
+    {
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "./deskStructure.js"
+    }
+  ]
+}
